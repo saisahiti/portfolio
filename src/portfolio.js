@@ -26,7 +26,7 @@ const greeting = {
     "I am pursuing Masters in Computer Science and Information at University at Buffalo (December 2023), passionate about using data to improve lives"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1RxUAPyW8kAtSZ7hd3dwb7WCntCC_hjig/view?usp=drive_link", // Set to empty to hide the button
+    "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
