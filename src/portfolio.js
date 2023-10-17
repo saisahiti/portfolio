@@ -23,7 +23,7 @@ const greeting = {
   username: "Sai Sahiti Chittem",
   title: "Hello all, I am Sai Sahiti Chittem",
   subTitle: emoji(
-    "I am pursuing Masters in Data Science at University at Buffalo (December 2023), passionate about using data to improve lives"
+    "I am pursuing Masters in Computer Science and Information at University at Buffalo (December 2023), passionate about using data to improve lives"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1RxUAPyW8kAtSZ7hd3dwb7WCntCC_hjig/view?usp=drive_link", // Set to empty to hide the button
@@ -45,7 +45,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Innovative software developer with three years of hands-on experience in application design, testing, data visualization tools, and data science technologies. Well-versed in Agile methodologies and coding languages, dedicated to developing creative solutions that align with business goals and requirements.",
   skills: [
   ],
 
