@@ -129,7 +129,7 @@ const educationInfo = {
     {
       schoolName: "University at Buffalo",
       logo: require("./assets/images/ub logo.png"),
-      subHeader: "Master of Science in Data Science",
+      subHeader: "Master of Science in Computer Science and Information",
       duration: "August 2022 - December 2023",
       desc: "Coursework",
       descBullets: [
@@ -239,6 +239,11 @@ const personalProjects = {
       image: require("./assets/images/tableau.png"),
       projectName: "Retail Sales Analysis and Visualization",
       projectDesc: "This project is a testament to my proficiency in data analytics and Tableau visualization techniques. Focused on optimizing sales performance for a retail business, it encapsulates a meticulously structured journey through the realm of data-driven insights. Beginning with data collection and rigorous cleaning, the project ensures data reliability. It progresses to in-depth data exploration, defining key performance metrics, and crafting captivating Tableau visualizations, including interactive dashboards, bar charts, line graphs, heatmaps, and geographical maps. The application of Tableau's versatility extends to customer segmentation, sales forecasting, and A/B testing, providing actionable insights that have the potential to reshape sales strategies and amplify revenue. The project's user-friendly Tableau dashboards ensure real-time access to insights.",
+    },
+    {
+      image: require("./assets/images/go_prog.png"),
+      projectName: "Collaborative Task Management System",
+      projectDesc: "I took the lead in developing a comprehensive task management platform using the Go programming language. This project included the creation of user authentication features and the integration of WebSocket technology to enable real-time communication. The platform aimed to enhance team collaboration and provide instant updates on task progress, ultimately streamlining workflow and productivity.",
     }
   ],
   display: true // Set false to hide this section, defaults to true
