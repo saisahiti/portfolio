@@ -258,6 +258,11 @@ const projects = {
       projectDesc: "Constructed and assessed various machine learning models, including XGBoost, Ridge, Lasso, and Random Forest, to predict property prices. After rigorous evaluation, the XGBoost model emerged as the top performer, achieving an impressive 90% accuracy rate. This success was achieved while working with a housing dataset comprising 1,460 rows and 81 diverse features related to housing. The utilization of XGBoost in this context not only demonstrates its superior predictive capabilities but also underscores its suitability for handling complex real estate datasets                                                                                                                                                                                                     "
     },
     {
+      image: require("./assets/images/crime-analysis.jpeg"),
+      projectName: "Crime Data Analysis in Baltimore",
+      projectDesc: "In my project focused on crime data analysis in Baltimore City, I delved into the intricacies of a vast dataset, skillfully normalizing it and designing an efficient database schema. Leveraging SQL queries, I uncovered critical insights about crime patterns, including identifying 1500 Russell Street as a hotspot for criminal activities. With data visualization tools like Matplotlib, Seaborn, and Folium, I translated these findings into compelling visual representations, making complex data accessible and insightful. This project underscores my ability to extract meaningful insights from extensive datasets and communicate them effectively through data visualization, further demonstrating my commitment to data-driven decision-making and enhancing community safety"
+    },
+    {
       image: require("./assets/images/captcha-image.png"),
       projectName: "Captcha Recognition using Deep Learning",
       projectDesc: "Significantly bolstered website security through the implementation of a robust strategy. Involved the development of a Convolutional Neural Network (CNN) capable of accurately identifying single-letter CAPTCHAs, thus fortifying our defense against automated threats. Designed a multi-CNN system tailored to tackle more intricate CAPTCHAs, further enhancing our protection against increasingly sophisticated malicious activities. This proactive approach not only ensures the safeguarding of sensitive user data but also exemplifies our commitment to staying ahead of evolving cybersecurity challenges."
@@ -281,6 +286,11 @@ const achievementSection = {
 
   achievementsCards: [
     {
+        title: "Code for Good Hackathon 2019",
+        subtitle: "Earning the 2nd prize in the 2019 Code for Good hackathon was a rewarding achievement, underscoring the effective teamwork of our six-member group in crafting a Java-Firebase Android app. Our project not only highlighted our technical skills but also emphasized our dedication to utilizing technology for positive social change, a commitment that continues to drive our endeavors.",
+        image: require("./assets/images/cfg.jpeg")
+    },
+    {
       title: "AWS Certified Developer",
       subtitle:
         "Proud to have achieved te AWS Certified Developer Associate certification, this validates my expertise in developing and deploying applications on the Amazon web services cloud platform. ",
@@ -293,9 +303,9 @@ const achievementSection = {
       image: require("./assets/images/kafka.jpeg")
     },
     {
-      title: "Code for Good Hackathon 2019",
-      subtitle: "Earning the 2nd prize in the 2019 Code for Good hackathon was a rewarding achievement, underscoring the effective teamwork of our six-member group in crafting a Java-Firebase Android app. Our project not only highlighted our technical skills but also emphasized our dedication to utilizing technology for positive social change, a commitment that continues to drive our endeavors.",
-      image: require("./assets/images/cfg.jpeg")
+      title: "Machine Learning: Natural Language Processing in Python (V2)",
+      subtitle: "Earned the Machine Learning: Natural Language Processing in Python (V2) certification, showcasing my proficiency in advanced natural language processing techniques and Python programming for text data analysis.",
+      image: require("./assets/images/nlp.jpeg")
     }
   ],
   display: true // Set false to hide this section, defaults to true
