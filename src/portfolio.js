@@ -149,7 +149,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Backend", //Insert stack or technology you have experience in
@@ -236,11 +236,6 @@ const personalProjects = {
       projectDesc: "This project represents an innovative approach to optimizing supply chain management by automating the flow of goods and services. It aims to eliminate the inefficiencies and error-prone nature of manual systems. The primary objective is to create a secure and robust Supply Chain Management System that comprehensively tracks product availability, inventory, clients, dealers, payments, transactions, orders, and history. By leveraging technologies such as Java and MySQL, along with a structured software engineering approach, this digital solution promises enhanced speed, accuracy, and reliability in supply chain operations, ultimately ensuring timely product deliveries.",
     },
     {
-      image: require("./assets/images/tableau.png"),
-      projectName: "Retail Sales Analysis and Visualization",
-      projectDesc: "This project is a testament to my proficiency in data analytics and Tableau visualization techniques. Focused on optimizing sales performance for a retail business, it encapsulates a meticulously structured journey through the realm of data-driven insights. Beginning with data collection and rigorous cleaning, the project ensures data reliability. It progresses to in-depth data exploration, defining key performance metrics, and crafting captivating Tableau visualizations, including interactive dashboards, bar charts, line graphs, heatmaps, and geographical maps. The application of Tableau's versatility extends to customer segmentation, sales forecasting, and A/B testing, providing actionable insights that have the potential to reshape sales strategies and amplify revenue. The project's user-friendly Tableau dashboards ensure real-time access to insights.",
-    },
-    {
       image: require("./assets/images/go_prog.png"),
       projectName: "Collaborative Task Management System",
       projectDesc: "I took the lead in developing a comprehensive task management platform using the Go programming language. This project included the creation of user authentication features and the integration of WebSocket technology to enable real-time communication. The platform aimed to enhance team collaboration and provide instant updates on task progress, ultimately streamlining workflow and productivity.",
@@ -255,22 +250,58 @@ const projects = {
     {
       image: require("./assets/images/xgboost.png"),
       projectName: "Prediction of House Prices using XGBoost",
-      projectDesc: "Constructed and assessed various machine learning models, including XGBoost, Ridge, Lasso, and Random Forest, to predict property prices. After rigorous evaluation, the XGBoost model emerged as the top performer, achieving an impressive 90% accuracy rate. This success was achieved while working with a housing dataset comprising 1,460 rows and 81 diverse features related to housing. The utilization of XGBoost in this context not only demonstrates its superior predictive capabilities but also underscores its suitability for handling complex real estate datasets                                                                                                                                                                                                     "
+      //projectDesc: "Constructed and assessed various machine learning models, including XGBoost, Ridge, Lasso, and Random Forest, to predict property prices. After rigorous evaluation, the XGBoost model emerged as the top performer, achieving an impressive 90% accuracy rate. This success was achieved while working with a housing dataset comprising 1,460 rows and 81 diverse features related to housing. The utilization of XGBoost in this context not only demonstrates its superior predictive capabilities but also underscores its suitability for handling complex real estate datasets",
+      projectDesc: (
+              <ul>
+                <li>Constructed and assessed various machine learning models, including XGBoost, Ridge, Lasso, and Random Forest, to predict property prices.</li>
+                <li>After rigorous evaluation, the XGBoost model emerged as the top performer, achieving an impressive 90% accuracy rate.</li>
+                <li>This success was achieved while working with a housing dataset comprising 1,460 rows and 81 diverse features related to housing.</li>
+                <li>The utilization of XGBoost in this context not only demonstrates its superior predictive capabilities but also underscores its suitability for handling complex real estate datasets.</li>
+              </ul>
+      ),
+      footerLink: [
+              {
+                name: "Visit Github Repo",
+                url: "https://github.com/saisahiti/houseprices-prediction"
+              }
+              //  you can add extra buttons here.
+       ]
     },
     {
       image: require("./assets/images/crime-analysis.jpeg"),
       projectName: "Crime Data Analysis in Baltimore",
-      projectDesc: "In my project focused on crime data analysis in Baltimore City, I delved into the intricacies of a vast dataset, skillfully normalizing it and designing an efficient database schema. Leveraging SQL queries, I uncovered critical insights about crime patterns, including identifying 1500 Russell Street as a hotspot for criminal activities. With data visualization tools like Matplotlib, Seaborn, and Folium, I translated these findings into compelling visual representations, making complex data accessible and insightful. This project underscores my ability to extract meaningful insights from extensive datasets and communicate them effectively through data visualization, further demonstrating my commitment to data-driven decision-making and enhancing community safety"
+      projectDesc: "In my project focused on crime data analysis in Baltimore City, I delved into the intricacies of a vast dataset, skillfully normalizing it and designing an efficient database schema. Leveraging SQL queries, I uncovered critical insights about crime patterns, including identifying 1500 Russell Street as a hotspot for criminal activities. With data visualization tools like Matplotlib, Seaborn, and Folium, I translated these findings into compelling visual representations, making complex data accessible and insightful. This project underscores my ability to extract meaningful insights from extensive datasets and communicate them effectively through data visualization, further demonstrating my commitment to data-driven decision-making and enhancing community safety",
+      footerLink: [
+                    {
+                      name: "Visit Github Repo",
+                      url: "https://github.com/saisahiti/crime-data-analysis"
+                    }
+                    //  you can add extra buttons here.
+      ]
     },
     {
       image: require("./assets/images/captcha-image.png"),
       projectName: "Captcha Recognition using Deep Learning",
-      projectDesc: "Significantly bolstered website security through the implementation of a robust strategy. Involved the development of a Convolutional Neural Network (CNN) capable of accurately identifying single-letter CAPTCHAs, thus fortifying our defense against automated threats. Designed a multi-CNN system tailored to tackle more intricate CAPTCHAs, further enhancing our protection against increasingly sophisticated malicious activities. This proactive approach not only ensures the safeguarding of sensitive user data but also exemplifies our commitment to staying ahead of evolving cybersecurity challenges."
+      projectDesc: "Significantly bolstered website security through the implementation of a robust strategy. Involved the development of a Convolutional Neural Network (CNN) capable of accurately identifying single-letter CAPTCHAs, thus fortifying our defense against automated threats. Designed a multi-CNN system tailored to tackle more intricate CAPTCHAs, further enhancing our protection against increasingly sophisticated malicious activities. This proactive approach not only ensures the safeguarding of sensitive user data but also exemplifies our commitment to staying ahead of evolving cybersecurity challenges.",
+      footerLink: [
+                          {
+                            name: "Visit Github Repo",
+                            url: "https://github.com/saisahiti/captcha-recognition"
+                          }
+                          //  you can add extra buttons here.
+            ]
     },
     {
       image: require("./assets/images/sql.jpeg"),
       projectName: "Wireless Inventory Management System",
-      projectDesc: "This project underscores the design and implementation of an agile and robust SQL-based inventory management system, an accomplishment that streamlined operations and fortified data accuracy. The project also entailed the execution of intricate ER diagram designs, meticulous structuring of database schemas, and the formulation of UML diagrams, all of which collectively contributed to a substantial enhancement in system efficiency. This innovative approach fosters seamless inventory management while reducing operational redundancies and errors, ultimately resulting in a more efficient and reliable system."
+      projectDesc: "This project underscores the design and implementation of an agile and robust SQL-based inventory management system, an accomplishment that streamlined operations and fortified data accuracy. The project also entailed the execution of intricate ER diagram designs, meticulous structuring of database schemas, and the formulation of UML diagrams, all of which collectively contributed to a substantial enhancement in system efficiency. This innovative approach fosters seamless inventory management while reducing operational redundancies and errors, ultimately resulting in a more efficient and reliable system.",
+      footerLink: [
+                    {
+                      name: "Visit Github Repo",
+                      url: "https://github.com/saisahiti/crime-data-analysis"
+                    }
+                    //  you can add extra buttons here.
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
