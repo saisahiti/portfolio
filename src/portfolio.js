@@ -58,7 +58,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-java"
     },
     {
-      skillName: "python",
+      skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
@@ -98,24 +98,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
     {
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "tableau",
-      fontAwesomeClassname: "fas fa-chart-pie"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -222,28 +210,6 @@ const openSource = {
 
 // Some big projects you have worked on
 
-const personalProjects = {
-  title: "Personal Projects",
-  projects: [
-    {
-      image: require("./assets/images/stock-trading.jpeg"),
-      projectName: "Real-Time NYSE Stock Trading Platform",
-      projectDesc: "The platform leverages React.js to provide a dynamic and interactive user experience, while Kafka ensures that data streams are delivered to traders in real time. This combination of technologies enables traders to make informed decisions quickly and efficiently. The platform's stock charts offer traders a variety of visualization options, such as line charts, bar charts, and candlestick charts. This allows traders to track stock prices over time and identify patterns and trends. Additionally, the platform provides traders with access to news and analysis from leading financial institutions. This platform is a valuable tool for traders of all levels of experience. It provides them with the data and insights they need to make informed trading decisions.",
-    },
-    {
-      image: require("./assets/images/supply-chain.jpg"),
-      projectName: "Automated Supply Chain Management System",
-      projectDesc: "This project represents an innovative approach to optimizing supply chain management by automating the flow of goods and services. It aims to eliminate the inefficiencies and error-prone nature of manual systems. The primary objective is to create a secure and robust Supply Chain Management System that comprehensively tracks product availability, inventory, clients, dealers, payments, transactions, orders, and history. By leveraging technologies such as Java and MySQL, along with a structured software engineering approach, this digital solution promises enhanced speed, accuracy, and reliability in supply chain operations, ultimately ensuring timely product deliveries.",
-    },
-    {
-      image: require("./assets/images/go_prog.png"),
-      projectName: "Collaborative Task Management System",
-      projectDesc: "I took the lead in developing a comprehensive task management platform using the Go programming language. This project included the creation of user authentication features and the integration of WebSocket technology to enable real-time communication. The platform aimed to enhance team collaboration and provide instant updates on task progress, ultimately streamlining workflow and productivity.",
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
-
 const projects = {
   title: "Academic Projects",
   projects: [
@@ -253,10 +219,8 @@ const projects = {
       //projectDesc: "Constructed and assessed various machine learning models, including XGBoost, Ridge, Lasso, and Random Forest, to predict property prices. After rigorous evaluation, the XGBoost model emerged as the top performer, achieving an impressive 90% accuracy rate. This success was achieved while working with a housing dataset comprising 1,460 rows and 81 diverse features related to housing. The utilization of XGBoost in this context not only demonstrates its superior predictive capabilities but also underscores its suitability for handling complex real estate datasets",
       projectDesc: (
               <ul>
-                <li>Constructed and assessed various machine learning models, including XGBoost, Ridge, Lasso, and Random Forest, to predict property prices.</li>
-                <li>After rigorous evaluation, the XGBoost model emerged as the top performer, achieving an impressive 90% accuracy rate.</li>
-                <li>This success was achieved while working with a housing dataset comprising 1,460 rows and 81 diverse features related to housing.</li>
-                <li>The utilization of XGBoost in this context not only demonstrates its superior predictive capabilities but also underscores its suitability for handling complex real estate datasets.</li>
+                <li><b>Skills/Technologies Used: </b>  R, XGBoost,Random Forest, Jupyter Notebook </li>
+                <li><b>Brief Description: </b>Constructed and assessed various machine learning models, including XGBoost, Ridge, Lasso, and Random Forest, to predict property prices.</li>
               </ul>
       ),
       footerLink: [
@@ -270,7 +234,12 @@ const projects = {
     {
       image: require("./assets/images/crime-analysis.jpeg"),
       projectName: "Crime Data Analysis in Baltimore",
-      projectDesc: "In my project focused on crime data analysis in Baltimore City, I delved into the intricacies of a vast dataset, skillfully normalizing it and designing an efficient database schema. Leveraging SQL queries, I uncovered critical insights about crime patterns, including identifying 1500 Russell Street as a hotspot for criminal activities. With data visualization tools like Matplotlib, Seaborn, and Folium, I translated these findings into compelling visual representations, making complex data accessible and insightful. This project underscores my ability to extract meaningful insights from extensive datasets and communicate them effectively through data visualization, further demonstrating my commitment to data-driven decision-making and enhancing community safety",
+      projectDesc: (
+        <ul>
+            <li><b>Skills/Technologies Used:</b> Python, SQL, Matplotlib, Seaborn, Folium</li>
+            <li><b>Brief Description: </b> Analyzed and visualized crime data to pinpoint hotspots and enhance community safety through data-driven insights </li>
+        </ul>
+      ),
       footerLink: [
                     {
                       name: "Visit Github Repo",
@@ -282,7 +251,12 @@ const projects = {
     {
       image: require("./assets/images/captcha-image.png"),
       projectName: "Captcha Recognition using Deep Learning",
-      projectDesc: "Significantly bolstered website security through the implementation of a robust strategy. Involved the development of a Convolutional Neural Network (CNN) capable of accurately identifying single-letter CAPTCHAs, thus fortifying our defense against automated threats. Designed a multi-CNN system tailored to tackle more intricate CAPTCHAs, further enhancing our protection against increasingly sophisticated malicious activities. This proactive approach not only ensures the safeguarding of sensitive user data but also exemplifies our commitment to staying ahead of evolving cybersecurity challenges.",
+      projectDesc: (
+         <ul>
+           <li><b>Skills/Technologies Used:</b> Python, TensorFlow, OpenCV, Deep Learning</li>
+           <li><b>Brief Description: </b> Enhanced web security with an advanced multi-CNN system, effectively safeguarding sensitive user data and countering evolving cybersecurity threats </li>
+         </ul>
+      ),
       footerLink: [
                           {
                             name: "Visit Github Repo",
@@ -294,7 +268,12 @@ const projects = {
     {
       image: require("./assets/images/sql.jpeg"),
       projectName: "Wireless Inventory Management System",
-      projectDesc: "This project underscores the design and implementation of an agile and robust SQL-based inventory management system, an accomplishment that streamlined operations and fortified data accuracy. The project also entailed the execution of intricate ER diagram designs, meticulous structuring of database schemas, and the formulation of UML diagrams, all of which collectively contributed to a substantial enhancement in system efficiency. This innovative approach fosters seamless inventory management while reducing operational redundancies and errors, ultimately resulting in a more efficient and reliable system.",
+      projectDesc: (
+         <ul>
+           <li><b>Skills/Technologies Used:</b> SQL, Database Management, Lucid Chart</li>
+           <li><b>Brief Description: </b> Designed an agile SQL-based inventory management system with optimized database structures, ER diagrams, and UML diagrams, enhancing operational efficiency and reliability</li>
+         </ul>
+      ),
       footerLink: [
                     {
                       name: "Visit Github Repo",
@@ -302,6 +281,45 @@ const projects = {
                     }
                     //  you can add extra buttons here.
       ]
+    }
+  ],
+  display: true // Set false to hide this section, defaults to true
+};
+
+const personalProjects = {
+  title: "Personal Projects",
+  projects: [
+    {
+      image: require("./assets/images/stock-trading.jpeg"),
+      projectName: "Real-Time NYSE Stock Trading Platform",
+      projectDesc: (
+          <ul>
+            <li><b>Skills/Technologies Used:</b> React.js, JavaScript, Kafka, Python, MongoDB </li>
+            <li><b>Brief Description: </b>Employs React.js and Kafka to deliver real-time data streams and interactive stock charts, providing traders with valuable insights for informed decision-making</li>
+          </ul>
+       ),
+    },
+    {
+      image: require("./assets/images/supply-chain.jpg"),
+      projectName: "Automated Supply Chain Management System",
+      projectDesc:
+      (
+         <ul>
+          <li><b>Skills/Technologies Used:</b> Java, OOPs, JSP, MYSQL, Tomcat </li>
+          <li><b>Brief Description: </b>Innovative project automates and optimizes supply chain management, ensuring accuracy and timely deliveries using Java, MySQL, and structured software engineering</li>
+         </ul>
+      ),
+    },
+    {
+      image: require("./assets/images/go_prog.png"),
+      projectName: "Collaborative Task Management System",
+      projectDesc:
+            (
+               <ul>
+                <li><b>Skills/Technologies Used:</b>  Go, Gin, HTML, CSS, JavaScript, MySQL </li>
+                <li><b>Brief Description: </b>Developed a comprehensive task management platform in Go, featuring user authentication and WebSocket integration for real-time team collaboration and enhanced productivity</li>
+               </ul>
+            ),
     }
   ],
   display: true // Set false to hide this section, defaults to true
