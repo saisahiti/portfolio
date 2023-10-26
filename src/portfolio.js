@@ -419,7 +419,7 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
+    "Thank you for exploring my portfolio. If you find my work intriguing and would like to connect, feel free to reach out to me on LinkedIn or send me an email at schittem@buffalo.edu. I'm always open to new opportunities, collaborations, and meaningful connections. Looking forward to hearing from you!",
   number: "+1 716-808-3999",
   email_address: "schittem@buffalo.edu"
 };
