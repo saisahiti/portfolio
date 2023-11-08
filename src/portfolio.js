@@ -23,7 +23,7 @@ const greeting = {
   username: "Sai Sahiti Chittem",
   title: "Hello all, I am Sai Sahiti Chittem",
   subTitle: emoji(
-    "I am pursuing Masters in Computer Science and Information at University at Buffalo (December 2023), passionate about using data to improve lives"
+    "I am pursuing Masters in Computer Science at University at Buffalo (December 2023), passionate about using data to improve lives"
   ),
   resumeLink:
     "", // Set to empty to hide the button
@@ -106,7 +106,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-aws"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Education Section
@@ -309,17 +309,6 @@ const personalProjects = {
           <li><b>Brief Description: </b>Innovative project automates and optimizes supply chain management, ensuring accuracy and timely deliveries using Java, MySQL, and structured software engineering</li>
          </ul>
       ),
-    },
-    {
-      image: require("./assets/images/go_prog.png"),
-      projectName: "Collaborative Task Management System",
-      projectDesc:
-            (
-               <ul>
-                <li><b>Skills/Technologies Used:</b>  Go, Gin, HTML, CSS, JavaScript, MySQL </li>
-                <li><b>Brief Description: </b>Developed a comprehensive task management platform in Go, featuring user authentication and WebSocket integration for real-time team collaboration and enhanced productivity</li>
-               </ul>
-            ),
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -336,25 +325,24 @@ const achievementSection = {
   achievementsCards: [
     {
         title: "Code for Good Hackathon 2019",
-        subtitle: "Earning the 2nd prize in the 2019 Code for Good hackathon was a rewarding achievement, underscoring the effective teamwork of our six-member group in crafting a Java-Firebase Android app. Our project not only highlighted our technical skills but also emphasized our dedication to utilizing technology for positive social change, a commitment that continues to drive our endeavors.",
+        subtitle: (
+        <div><p>Earning the 2nd prize in the 2019 Code for Good hackathon was a rewarding achievement, underscoring the effective teamwork of our six-member group in crafting a Java-Firebase Android app. <b><a href ="https://github.com/hyderabad19/team-6" target="_blank" rel="noreferrer">GitHub Link</a></b></p></div>
+        ),
         image: require("./assets/images/cfg.jpeg")
     },
     {
       title: "AWS Certified Developer",
-      subtitle:
-        "Proud to have achieved te AWS Certified Developer Associate certification, this validates my expertise in developing and deploying applications on the Amazon web services cloud platform. ",
+      subtitle: (
+           <div><p>Proud to have achieved te AWS Certified Developer Associate certification, this validates my expertise in developing and deploying applications on the Amazon web services cloud platform.   <b><a href ="https://udemy-certificate.s3.amazonaws.com/image/UC-00793609-0079-41f7-b9c2-78ba34b9ea8a.jpg" target="_blank" rel="noreferrer">View my Certificate</a></b></p></div>
+      ),
       image: require("./assets/images/aws.png")
     },
     {
       title: "Apache Kafka V3 Certification",
-      subtitle:
-        "Proud to have earned the Apache Kafka V3 certification, showcases my proficiency in utilizing Kafka's powerful streaming platform for building real-time data pipelines and event-driven applications. This certification solidifies my skills in managing data streams and reinforces my commitment to staying at the forefront of modern data engineering technologies.",
+      subtitle :(
+        <div><p>Proud to have earned the Apache Kafka V3 certification, showcases my proficiency in utilizing Kafka powerful streaming platform for building real-time data pipelines and event-driven applications. <b><a href ="https://udemy-certificate.s3.amazonaws.com/image/UC-7b437d91-064b-402a-a0d8-d6fcc80075a3.jpg" target="_blank" rel="noreferrer">View my Certificate</a></b></p></div>
+      ),
       image: require("./assets/images/kafka.jpeg")
-    },
-    {
-      title: "Machine Learning: Natural Language Processing in Python (V2)",
-      subtitle: "Earned the Machine Learning: Natural Language Processing in Python (V2) certification, showcasing my proficiency in advanced natural language processing techniques and Python programming for text data analysis.",
-      image: require("./assets/images/nlp.jpeg")
     }
   ],
   display: true // Set false to hide this section, defaults to true
